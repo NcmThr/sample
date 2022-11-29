@@ -18,7 +18,11 @@ class ProductList extends React.Component {
   };
 
   render() {
-    return <div className="menu-body"></div>;
+    return (
+      <div className="menu-body">
+        <h1></h1>
+      </div>
+    );
   }
 }
 
